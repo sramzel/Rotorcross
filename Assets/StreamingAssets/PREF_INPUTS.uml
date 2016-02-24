@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_INPUTS</fileName>
+  <serializedTypes />
+  <serializedData>
+    <DataContainer>
+      <key>EXP_0</key>
+      <value xsi:type="xsd:float">1.5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>EXP_2</key>
+      <value xsi:type="xsd:float">1.5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>EXP_1</key>
+      <value xsi:type="xsd:float">1.5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>EXP_3</key>
+      <value xsi:type="xsd:float">1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MIN_0</key>
+      <value xsi:type="xsd:float">-1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MIN_2</key>
+      <value xsi:type="xsd:float">-1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MIN_1</key>
+      <value xsi:type="xsd:float">1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MIN_3</key>
+      <value xsi:type="xsd:float">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MAX_0</key>
+      <value xsi:type="xsd:float">1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MAX_2</key>
+      <value xsi:type="xsd:float">1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MAX_1</key>
+      <value xsi:type="xsd:float">-1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MAX_3</key>
+      <value xsi:type="xsd:float">1</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

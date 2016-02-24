@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_PID_LUXFLOAT_Default</fileName>
+  <serializedTypes />
+  <serializedData>
+    <DataContainer>
+      <key>rates_0</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_2</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_1</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_3</key>
+      <value xsi:type="xsd:float">75</value>
+    </DataContainer>
+    <DataContainer>
+      <key>force_0</key>
+      <value xsi:type="xsd:float">3</value>
+    </DataContainer>
+    <DataContainer>
+      <key>force_1</key>
+      <value xsi:type="xsd:float">5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>FLIGHT_MODE</key>
+      <value xsi:type="xsd:int">1</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P_f_0</key>
+      <value xsi:type="xsd:float">2.5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I_f_0</key>
+      <value xsi:type="xsd:float">0.06</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D_f_0</key>
+      <value xsi:type="xsd:float">0.06</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P_f_1</key>
+      <value xsi:type="xsd:float">8</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I_f_1</key>
+      <value xsi:type="xsd:float">0.05</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D_f_1</key>
+      <value xsi:type="xsd:float">0.05</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P_f_2</key>
+      <value xsi:type="xsd:float">2.5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I_f_2</key>
+      <value xsi:type="xsd:float">0.06</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D_f_2</key>
+      <value xsi:type="xsd:float">0.06</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

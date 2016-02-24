@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_CONFIG</fileName>
+  <serializedTypes>
+    <string>System.String, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</string>
+  </serializedTypes>
+  <serializedData>
+    <DataContainer>
+      <key>SAVE_FILE_NAME</key>
+      <value xsi:type="string">Default</value>
+    </DataContainer>
+    <DataContainer>
+      <key>HIDDEN_PANELS</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>OSD</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>CAM_FOV</key>
+      <value xsi:type="xsd:float">100</value>
+    </DataContainer>
+    <DataContainer>
+      <key>CAM_ANGLE</key>
+      <value xsi:type="xsd:float">35</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

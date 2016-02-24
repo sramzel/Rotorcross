@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_PID_HARAKIRI</fileName>
+  <serializedTypes />
+  <serializedData>
+    <DataContainer>
+      <key>P8_0</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_2</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_1</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_0</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_2</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_0</key>
+      <value xsi:type="xsd:unsignedByte">32</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_2</key>
+      <value xsi:type="xsd:unsignedByte">32</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_1</key>
+      <value xsi:type="xsd:unsignedByte">23</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates1</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_3</key>
+      <value xsi:type="xsd:unsignedByte">5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_3</key>
+      <value xsi:type="xsd:unsignedByte">40</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_3</key>
+      <value xsi:type="xsd:unsignedByte">60</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_1</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

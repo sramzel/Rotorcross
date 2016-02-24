@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_MULTIROTOR_Default</fileName>
+  <serializedTypes />
+  <serializedData>
+    <DataContainer>
+      <key>PROP_DIAM</key>
+      <value xsi:type="xsd:float">0.152399927</value>
+    </DataContainer>
+    <DataContainer>
+      <key>PROP_MASS</key>
+      <value xsi:type="xsd:float">0.002</value>
+    </DataContainer>
+    <DataContainer>
+      <key>PROP_PITCH</key>
+      <value xsi:type="xsd:float">0.114299946</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MOTOR_CUR</key>
+      <value xsi:type="xsd:float">0.8</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MOTOR_KV</key>
+      <value xsi:type="xsd:float">2000</value>
+    </DataContainer>
+    <DataContainer>
+      <key>MOTOR_RES</key>
+      <value xsi:type="xsd:float">0.43</value>
+    </DataContainer>
+    <DataContainer>
+      <key>BATTERY_V</key>
+      <value xsi:type="xsd:float">12.4</value>
+    </DataContainer>
+    <DataContainer>
+      <key>FRAME_MASS</key>
+      <value xsi:type="xsd:float">0.65</value>
+    </DataContainer>
+    <DataContainer>
+      <key>FRAME_RES</key>
+      <value xsi:type="xsd:float">0.01</value>
+    </DataContainer>
+    <DataContainer>
+      <key>PID</key>
+      <value xsi:type="xsd:int">2</value>
+    </DataContainer>
+    <DataContainer>
+      <key>PROP_E</key>
+      <value xsi:type="xsd:float">3.33333325</value>
+    </DataContainer>
+    <DataContainer>
+      <key>CAM_ANGLE</key>
+      <value xsi:type="xsd:float">15</value>
+    </DataContainer>
+    <DataContainer>
+      <key>CAM_FOV</key>
+      <value xsi:type="xsd:float">100</value>
+    </DataContainer>
+    <DataContainer>
+      <key>FRAME_SIZE</key>
+      <value xsi:type="xsd:float">0.25</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

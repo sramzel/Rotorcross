@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotorCross.CSharp.Plugins", "RotorCross.CSharp.Plugins.csproj", "{CBE82D62-57AD-A54A-AFC0-0C28CAEA477E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotorCross.CSharp", "RotorCross.CSharp.csproj", "{11841E64-E04C-2C2E-83B1-81F1D15A7F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotorCross.CSharp.Editor", "RotorCross.CSharp.Editor.csproj", "{2E7466F0-4E80-B8B0-802E-F66CF6DBBD93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBE82D62-57AD-A54A-AFC0-0C28CAEA477E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE82D62-57AD-A54A-AFC0-0C28CAEA477E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE82D62-57AD-A54A-AFC0-0C28CAEA477E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE82D62-57AD-A54A-AFC0-0C28CAEA477E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11841E64-E04C-2C2E-83B1-81F1D15A7F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11841E64-E04C-2C2E-83B1-81F1D15A7F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11841E64-E04C-2C2E-83B1-81F1D15A7F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11841E64-E04C-2C2E-83B1-81F1D15A7F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E7466F0-4E80-B8B0-802E-F66CF6DBBD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E7466F0-4E80-B8B0-802E-F66CF6DBBD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E7466F0-4E80-B8B0-802E-F66CF6DBBD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E7466F0-4E80-B8B0-802E-F66CF6DBBD93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

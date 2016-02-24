@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <fileName>PREF_PID_MULTIWII_REWRITE</fileName>
+  <serializedTypes />
+  <serializedData>
+    <DataContainer>
+      <key>P8_0</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_2</key>
+      <value xsi:type="xsd:unsignedByte">80</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_1</key>
+      <value xsi:type="xsd:unsignedByte">85</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_0</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_2</key>
+      <value xsi:type="xsd:unsignedByte">30</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_1</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_0</key>
+      <value xsi:type="xsd:unsignedByte">32</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_2</key>
+      <value xsi:type="xsd:unsignedByte">32</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_3</key>
+      <value xsi:type="xsd:unsignedByte">75</value>
+    </DataContainer>
+    <DataContainer>
+      <key>I8_3</key>
+      <value xsi:type="xsd:unsignedByte">3</value>
+    </DataContainer>
+    <DataContainer>
+      <key>P8_3</key>
+      <value xsi:type="xsd:unsignedByte">5</value>
+    </DataContainer>
+    <DataContainer>
+      <key>D8_1</key>
+      <value xsi:type="xsd:unsignedByte">27</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_0</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_2</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>rates_1</key>
+      <value xsi:type="xsd:unsignedByte">0</value>
+    </DataContainer>
+    <DataContainer>
+      <key>FLIGHT_MODE</key>
+      <value xsi:type="xsd:int">0</value>
+    </DataContainer>
+  </serializedData>
+</SaveData>

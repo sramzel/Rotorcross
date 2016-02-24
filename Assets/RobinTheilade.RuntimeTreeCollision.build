@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<project name="RobinTheilade.UnityFramework" default="build" xmlns="http://nant.sf.net/release/0.91/nant.xsd">
+
+	<script language="c#" prefix="rth">
+		<code>
+			<![CDATA[
+			[Function( "to-assembly-version" )]
+			public static string ToAssemblyVersion( DateTime dateTime )
+			{
+				return dateTime.ToString( "yyyy.MM.dd.\\*" );
+			}
+
+			[Function( "to-assembly-file-version" )]
+			public static string ToAssemblyFileVersion( DateTime dateTime )
+			{
+				return dateTime.ToString( "yyyy.MM.dd.HHmm" );
+			}
+
+			[Function("update-version")]
+			public static string UpdateVersion( string assemblyInfoFileName, DateTime dateTime )
+			{
+				Stream stream = null;
+				StreamReader reader = null;
+				var builder = new StringBuilder();
+				
+				try
+				{
+					stream = File.OpenRead( assemblyInfoFileName );
+					reader = new StreamReader( stream );
+					string line;
+					while( ( line = reader.ReadLine() ) != null )
+					{
+						if( line.StartsWith( "[assembly: AssemblyVersion" ) )
+						{
+							builder.AppendLine( string.Concat( "[assembly: AssemblyVersion( \"", ToAssemblyVersion( dateTime ), "\" )]" ) );
+						}
+						else if( line.StartsWith( "[assembly: AssemblyFileVersion" ) )
+						{
+							builder.AppendLine( string.Concat( "[assembly: AssemblyFileVersion( \"", ToAssemblyFileVersion( dateTime ), "\" )]" ) );
+						}
+						else
+						{
+							builder.AppendLine( line );
+						}
+					}
+				}
+				finally
+				{
+					if( reader != null )
+					{
+						reader.Close();
+						reader.Dispose();
+						reader = null;
+					}
+					if( stream != null )
+					{
+						stream.Close();
+						stream.Dispose();
+						stream = null;
+					}
+				}
+				
+				File.WriteAllText( assemblyInfoFileName, builder.ToString() );
+				return string.Concat( "Updated ", assemblyInfoFileName );
+			}
+			]]>
+		</code>
+	</script>
+
+	<property name="baseDir" value="${project::get-base-directory()}"/>
+	<property name="now" value="${datetime::now()}"/>
+	<property name="msBuild" value="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe" />
+
+	<target name="build" depends="updateVersion, compile, pdb2mdb" description="Versioning, compile and generate MDB">
+	</target>
+
+	<target name="updateVersion" description="Updates the assemblies version">
+		<foreach item="File" property="fileName">
+			<in>
+				<items>
+					<include name="${baseDir}/**/AssemblyInfo.cs"/>
+				</items>
+			</in>
+			<do>
+				<echo message="${rth::update-version(fileName, now)}"/>
+			</do>
+		</foreach>
+	</target>
+
+	<target name="compile" description="Compiles the projects in the solution">
+		<exec program="${msBuild}" verbose="true">
+			<arg value="${baseDir}\RobinTheilade.RuntimeTreeCollision.sln" />
+			<arg value="/t:Rebuild" />
+			<arg value="/p:Configuration=Debug" />
+		</exec>
+    <exec program="${msBuild}" verbose="true">
+      <arg value="${baseDir}\RobinTheilade.RuntimeTreeCollision.sln" />
+      <arg value="/t:Rebuild" />
+      <arg value="/p:Configuration=Release" />
+    </exec>
+  </target>
+
+	<target name="pdb2mdb" description="Generates MDB files based on PDB files">
+		<foreach item="File" property="csprojFileName">
+			<in>
+				<items>
+					<include name="**/*.csproj"/>
+				</items>
+			</in>
+			<do>
+				<property name="name" value="${path::get-file-name-without-extension(csprojFileName)}"/>
+				<property name="assemblyFileName" value="${name}.dll"/>
+				<property name="binDir" value="${path::get-directory-name(csprojFileName)}"/>
+				<exec program=".\Tools\Unity\pdb2mdb\pdb2mdb" verbose="true" commandline="${assemblyFileName}" workingdir="${binDir}\bin\Debug" />
+        <exec program=".\Tools\Unity\pdb2mdb\pdb2mdb" verbose="true" commandline="${assemblyFileName}" workingdir="${binDir}\bin\Release" />
+      </do>
+		</foreach>
+	</target>
+
+</project>
