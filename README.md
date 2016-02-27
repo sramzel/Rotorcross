@@ -18,4 +18,4 @@ Rotorcross in an open source multirotor racing simulator using the Unity game en
 - 4 levels
 - 6 timed courses
 
-Please contribute. Please let me know in the [community page](https://rotorcross.itch.io/rotorcross/community) if this repository is not set up to properly collaborate. The code is a mess right now. Please send a merge request if you can clean it up.
+Please contribute. Let me know in the [community page](https://rotorcross.itch.io/rotorcross/community) if this repository is not set up to collaborate. The code is a mess right now. Please send a merge request if you can clean it up.
